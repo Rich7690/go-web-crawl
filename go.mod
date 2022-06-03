@@ -1,4 +1,4 @@
-module github.com/golang-templates/seed
+module github.com/rtdev7690/gowebcrawl
 
 go 1.18
 

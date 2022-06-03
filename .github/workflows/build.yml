@@ -1,10 +1,16 @@
 name: build
 
 on:
-  push: 
-    branches: [ main ]
+  push:
+    branches: [main]
+    paths-ignore:
+      - "*.md"
+      - ".devcontainer/*"
   pull_request:
-    branches: [ main ]
+    branches: [main]
+    paths-ignore:
+      - "*.md"
+      - ".devcontainer/*"
   workflow_dispatch:
 
 jobs:
@@ -12,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-20.04, macos-10.15, windows-2019 ]
+        os: [ubuntu-20.04]
     runs-on: ${{ matrix.os }}
     defaults:
       run:
