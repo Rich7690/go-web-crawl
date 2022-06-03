@@ -1,8 +1,5 @@
 # Go Web Crawl
 
-An example repo for crawling web sites with a headless browser
-
-
 ![GitHub release](https://img.shields.io/github/v/release/rtdev7690/go-web-crawl)
 [![Go Reference](https://pkg.go.dev/badge/github.com/rtdev7690/go-web-crawl.svg)](https://pkg.go.dev/github.com/rtdev7690/go-web-crawl)
 [![go.mod](https://img.shields.io/github/go-mod/go-version/rtdev7690/go-web-crawl)](go.mod)
@@ -11,3 +8,4 @@ An example repo for crawling web sites with a headless browser
 [![Go Report Card](https://goreportcard.com/badge/github.com/rtdev7690/go-web-crawl)](https://goreportcard.com/report/github.com/rtdev7690/go-web-crawl)
 [![Codecov](https://codecov.io/gh/rtdev7690/go-web-crawl/branch/main/graph/badge.svg)](https://codecov.io/gh/rtdev7690/go-web-crawl)
 
+An example web page navigating project. Makes use of github.com/chromedp/chromedp to run a headless chrome browser and navigate through pages. Additionally, we integration with healthchecks.io in order to provide monitoring to the run
