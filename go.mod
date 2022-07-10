@@ -1,4 +1,4 @@
-module github.com/rtdev7690/gowebcrawl
+module github.com/rich7690/gowebcrawl
 
 go 1.18
 
